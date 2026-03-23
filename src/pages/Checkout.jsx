@@ -183,6 +183,11 @@ const Checkout = () => {
         mapClientData: {
           env: data.isProduction ? 'PRODUCTION' : 'STAGE',
         },
+        customConfig: {
+          udf1: '',
+          udf2: '',
+          udf3: '',
+        },
       };
 
       if (window.Paytm && window.Paytm.CheckoutJS) {

@@ -46,6 +46,13 @@ export async function initiatePayment(req, res) {
         mobile: customerPhone,
         email: customerEmail || '',
       },
+      enablePaymentMode: [
+        { mode: 'UPI', channels: ['UPIPUSH', 'UPIPUSHEXPRESS'] },
+        { mode: 'CREDIT_CARD', channels: ['CREDITCARD'] },
+        { mode: 'DEBIT_CARD', channels: ['DEBITCARD'] },
+        { mode: 'NET_BANKING', channels: ['NETBANKING'] },
+        { mode: 'PAYTM_DIGITAL_CREDIT', channels: ['PAYPAL'] }
+      ],
     };
 
     // Generate checksum (signature) on the body
