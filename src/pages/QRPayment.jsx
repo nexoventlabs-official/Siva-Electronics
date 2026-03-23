@@ -21,7 +21,7 @@ const QRPayment = ({ orderId, amount, description, onBack, onPaymentComplete }) 
       setLoading(true);
       setError(null);
 
-      const apiUrl = process.env.REACT_APP_API_URL?.trim() || 'http://localhost:10000';
+      const apiUrl = import.meta.env.VITE_API_URL?.trim() || '';
       const endpoint = `${apiUrl}/api/payment/qr`;
 
       console.log('🔍 QRPayment Debug Info:');

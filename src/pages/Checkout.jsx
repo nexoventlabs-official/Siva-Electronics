@@ -110,7 +110,8 @@ const Checkout = () => {
     setPaymentLoading(true);
     setPaymentError(null);
     try {
-      const response = await fetch('/api/payment/initiate', {
+      const apiUrl = import.meta.env.VITE_API_URL || '';
+      const response = await fetch(`${apiUrl}/api/payment/initiate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
