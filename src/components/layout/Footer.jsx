@@ -65,7 +65,7 @@ const Footer = () => {
               </div>
               <div className="contact-item">
                 <Mail size={16} />
-                <span>sivahomeappliances033@gmail.com</span>
+                <span>sivaelectronicsandhomeapplianc@gmail.com</span>
               </div>
             </div>
           </div>

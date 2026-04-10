@@ -21,15 +21,14 @@ export const products = [
   // Televisions
   {
     id: 1,
-    name: 'LG 55" 4K Smart OLED TV',
-    brand: 'LG',
+    name: 'Redmi 43" 4K Smart LED TV',
+    brand: 'Redmi',
     category: 'tv',
-    price: 89999,
-    originalPrice: 99999,
-    image: 'https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500',
+    price: 24999,
+    originalPrice: 29999,
+    image: '/Tv/redmi.jpg',
     images: [
-      'https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500',
-      'https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=500'
+      '/Tv/redmi.jpg'
     ],
     description: 'Experience stunning picture quality with LG OLED technology. Perfect blacks, infinite contrast, and vibrant colors.',
     features: ['4K Ultra HD', 'HDR10 Pro', 'Smart webOS', 'Dolby Vision', 'AI ThinQ'],
@@ -46,15 +45,14 @@ export const products = [
   },
   {
     id: 2,
-    name: 'Samsung 43" Crystal 4K UHD Smart TV',
-    brand: 'Samsung',
+    name: 'Kodak 43" 4K Smart TV',
+    brand: 'Kodak',
     category: 'tv',
-    price: 32999,
-    originalPrice: 39999,
-    image: 'https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?w=500',
+    price: 22999,
+    originalPrice: 27999,
+    image: '/Tv/Kodak.jpg',
     images: [
-      'https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?w=500',
-      'https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500'
+      '/Tv/Kodak.jpg'
     ],
     description: 'Crystal clear 4K resolution with Samsung\'s advanced processing technology.',
     features: ['Crystal 4K', 'Smart Tizen OS', 'HDR', 'Voice Control'],

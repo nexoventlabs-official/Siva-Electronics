@@ -84,6 +84,13 @@ const ProductCard = ({ product }) => {
             className="product-image"
             loading="lazy"
           />
+          <button 
+            className={`favorite-btn top-right ${isFavorite(product.id) ? 'favorited' : ''}`}
+            onClick={handleToggleFavorite}
+            title={isFavorite(product.id) ? 'Remove from favorites' : 'Add to favorites'}
+          >
+            <Heart size={16} fill={isFavorite(product.id) ? 'currentColor' : 'none'} />
+          </button>
           {discount > 0 && (
             <div className="discount-badge">
               {discount}% OFF
@@ -128,14 +135,6 @@ const ProductCard = ({ product }) => {
       </Link>
       
       <div className="product-actions">
-        <button 
-          className={`favorite-btn ${isFavorite(product.id) ? 'favorited' : ''}`}
-          onClick={handleToggleFavorite}
-          title={isFavorite(product.id) ? 'Remove from favorites' : 'Add to favorites'}
-        >
-          <Heart size={16} fill={isFavorite(product.id) ? 'currentColor' : 'none'} />
-        </button>
-        
         <button 
           className={`add-to-cart-btn ${isInCart(product.id) ? 'in-cart' : ''}`}
           onClick={handleAddToCart}

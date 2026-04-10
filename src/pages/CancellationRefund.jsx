@@ -101,7 +101,7 @@ const CancellationRefund = () => {
               <p><strong>Siva Electronics & Home Appliances</strong></p>
               <p>📍 OPP. TO 21, J.K.PLAZA, PALLIPAT MAIN ROAD, PODHATUR PETTAI, Tiruvallur, Tamil Nadu, 631208</p>
               <p>📞 +91 99436 91712 / +91 63837 91917</p>
-              <p>📧 Email: sivahomeappliances033@gmail.com</p>
+              <p>📧 Email: sivaelectronicsandhomeapplianc@gmail.com</p>
               <p>📧 Customer Support: contact@sivaappliances.shop</p>
               <p>🌐 Website: <a href="http://sivaappliances.shop/" target="_blank" rel="noopener noreferrer">http://sivaappliances.shop/</a></p>
               <p><strong>Our team is available Mon–Sat, 10 AM – 7 PM IST.</strong></p>

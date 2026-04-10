@@ -64,7 +64,7 @@ const Privacy = () => {
           <section className="privacy-section">
             <h2>Contact Us</h2>
             <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-            <p>Email: sivahomeappliances033@gmail.com<br />Phone: +91 99436 91712</p>
+            <p>Email: sivaelectronicsandhomeapplianc@gmail.com<br />Phone: +91 99436 91712</p>
           </section>
         </div>
       </div>

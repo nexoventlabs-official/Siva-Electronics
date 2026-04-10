@@ -77,7 +77,7 @@ const Support = () => {
             <h3>Email Support</h3>
             <p>Send us your queries via email</p>
             <div className="option-details">
-              <strong>sivahomeappliances033@gmail.com</strong>
+              <strong>sivaelectronicsandhomeapplianc@gmail.com</strong>
               <span>Response within 24 hours</span>
             </div>
           </div>
@@ -262,7 +262,7 @@ const Support = () => {
                 <Phone size={16} />
                 Call Now
               </a>
-              <a href="mailto:sivahomeappliances033@gmail.com" className="btn btn-outline">
+              <a href="mailto:sivaelectronicsandhomeapplianc@gmail.com" className="btn btn-outline">
                 <Mail size={16} />
                 Email Us
               </a>
